@@ -17,10 +17,5 @@ class Weather : AppCompatActivity() {
             val intent = Intent(this, WeatherDetail::class.java)
             startActivity(intent)
         }
-
-        binding.content2.setOnClickListener {
-            val intent = Intent(this, tes::class.java)
-            startActivity(intent)
-        }
     }
 }
